@@ -88,9 +88,9 @@ export default function Experience() {
                     {item.highlight}
                   </p>
                   
-                  <p className="text-[10px] md:text-sm text-gray-400 text-center leading-relaxed hidden md:block">
-                    {item.description}
-                  </p>
+                  {/* <p className="text-[10px] md:text-sm text-gray-400 text-center leading-relaxed hidden md:block"> */}
+                    {/* {item.description} */}
+                  {/* </p> */}
                 </div>
               </div>
             ))}
@@ -101,7 +101,7 @@ export default function Experience() {
         <div className="mt-8 md:mt-16 flex justify-center">
           <div className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-6 py-2 md:py-3 bg-gray-800 border border-gray-700 rounded-full">
             <i className="ri-amazon-fill text-lg md:text-2xl text-white"></i>
-            <span className="text-xs md:text-sm text-gray-300 font-medium">4 Years of Building at Amazon Scale</span>
+            <span className="text-xs md:text-sm text-gray-300 font-medium">2 Years of Building at Amazon Scale</span>
           </div>
         </div>
       </div>

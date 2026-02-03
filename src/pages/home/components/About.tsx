@@ -1,3 +1,4 @@
+import logo from "../../../assets/logo.png";
 
 export default function About() {
   return (
@@ -7,8 +8,8 @@ export default function About() {
           {/* Image */}
           <div className="relative">
             <div className="relative w-full h-64 md:h-96 rounded-xl md:rounded-2xl overflow-hidden border border-gray-800">
-              <img 
-                src="https://static.readdy.ai/image/5b91dc56620e006440478c6bdc15e55f/5ea7ae4ce972f9f2bd06800f312defae"
+            <img
+                src={logo}
                 alt="Helena Willits"
                 className="w-full h-full object-cover"
               />
