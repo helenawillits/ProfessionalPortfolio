@@ -37,7 +37,7 @@ export default function AIShowcase() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {features.map((feature, index) => (
             <div 
               key={index}
@@ -50,7 +50,7 @@ export default function AIShowcase() {
               <p className="text-xs md:text-sm text-gray-400 leading-relaxed">{feature.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
