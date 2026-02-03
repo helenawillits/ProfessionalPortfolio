@@ -17,10 +17,10 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: 'ri-linkedin-fill', href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: 'ri-github-fill', href: 'https://github.com', label: 'GitHub' },
+    { icon: 'ri-linkedin-fill', href: 'https://www.linkedin.com/in/helena-willits-22101399', label: 'LinkedIn' },
+    { icon: 'ri-github-fill', href: 'https://github.com/helenawillits', label: 'GitHub' },
     { icon: 'ri-twitter-x-line', href: 'https://twitter.com', label: 'Twitter' },
-    { icon: 'ri-mail-line', href: 'mailto:contact@example.com', label: 'Email' }
+    { icon: 'ri-mail-line', href: 'mailto:helena.willits@gmail.com', label: 'Email' }
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function Footer() {
                 className="w-8 h-8 md:w-12 md:h-12 rounded-full object-cover"
               />
               <span className="text-sm md:text-xl font-bold text-white">
-                Sai Kiran
+                Helena Willits
               </span>
             </div>
             <p className="text-[10px] md:text-sm text-gray-400 leading-relaxed">
@@ -116,7 +116,7 @@ export default function Footer() {
         {/* Lower Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6">
           <p className="text-[10px] md:text-sm text-gray-400">
-            © {currentYear} Sai Kiran. All rights reserved.
+            © {currentYear} Helena Willits. All rights reserved.
           </p>
 
           <div className="flex items-center gap-3 md:gap-6">

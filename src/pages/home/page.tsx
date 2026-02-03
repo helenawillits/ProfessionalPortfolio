@@ -36,7 +36,7 @@ export default function HomePage() {
               className="w-8 h-8 md:w-12 md:h-12 rounded-full object-cover"
             />
             <span className="text-sm md:text-xl font-bold text-white">
-              Sai Kiran
+              Helena Willits
             </span>
           </Link>
           
@@ -61,7 +61,7 @@ export default function HomePage() {
       <AIShowcase />
       <Projects />
       <Experience />
-      <Technologies />
+      {/* <Technologies /> */}
       <Impact />
       <Resume />
       <About />

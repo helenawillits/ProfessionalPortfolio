@@ -7,7 +7,7 @@ export default function Experience() {
       role: 'SDE Intern',
       company: 'Amazon Lex',
       highlight: 'NLP Model Diagnostics',
-      description: 'Built regression analysis tool for NLP model performance, saving 200+ dev hours/week. Awarded Summa Cum Laude.',
+      // description: 'Built regression analysis tool for NLP model performance, saving 200+ dev hours/week. Awarded Summa Cum Laude.',
       icon: 'ri-brain-line'
     },
     {
@@ -15,7 +15,7 @@ export default function Experience() {
       role: 'SDE Intern',
       company: 'CodeCatalyst',
       highlight: 'Developer Tools',
-      description: 'Designed code coverage feature using CDK, TypeScript, Lambda, S3, and EC2 for 10,000+ developers.',
+      // description: 'Designed code coverage feature using CDK, TypeScript, Lambda, S3, and EC2 for 10,000+ developers.',
       icon: 'ri-code-box-line'
     },
     {
@@ -23,7 +23,7 @@ export default function Experience() {
       role: 'SDE 1',
       company: 'Amazon Q (AWS)',
       highlight: 'Enterprise AI Assistant',
-      description: 'Delivered major frontend components for Q Code Transformation launch at Re:Invent. Saves enterprises $50k-$200k/year.',
+      // description: 'Delivered major frontend components for Q Code Transformation launch at Re:Invent. Saves enterprises $50k-$200k/year.',
       icon: 'ri-robot-line'
     },
     {
@@ -31,7 +31,7 @@ export default function Experience() {
       role: 'SDE 1',
       company: 'Alexa Plus',
       highlight: 'Next-Gen Ambient AI',
-      description: 'Pioneered agentic capabilities with model-agnostic LLM orchestration. Shipped to 3M+ users.',
+      // description: 'Pioneered agentic capabilities with model-agnostic LLM orchestration. Shipped to 3M+ users.',
       icon: 'ri-voice-recognition-line'
     }
   ];

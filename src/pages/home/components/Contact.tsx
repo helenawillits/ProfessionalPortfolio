@@ -51,8 +51,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[10px] md:text-sm text-gray-500">Email</p>
-                  <a href="mailto:contact@example.com" className="text-white hover:text-cyan-400 transition-colors cursor-pointer text-xs md:text-base">
-                    contact@example.com
+                  <a href="mailto:helena.willits@gmail.com" className="text-white hover:text-cyan-400 transition-colors cursor-pointer text-xs md:text-base">
+                    helena.willits@gmail.com
                   </a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[10px] md:text-sm text-gray-500">LinkedIn</p>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors cursor-pointer text-xs md:text-base">
+                  <a href="https://www.linkedin.com/in/helena-willits-22101399" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors cursor-pointer text-xs md:text-base">
                     Connect with me
                   </a>
                 </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[10px] md:text-sm text-gray-500">GitHub</p>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors cursor-pointer text-xs md:text-base">
+                  <a href="https://github.com/helenawillits?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-400 transition-colors cursor-pointer text-xs md:text-base">
                     View my repositories
                   </a>
                 </div>
@@ -88,7 +88,7 @@ export default function Contact() {
                 Schedule a Call
               </button>
               <a 
-                href="https://github.com"
+                href="https://github.com/helenawillits"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 md:px-8 py-2.5 md:py-4 border-2 border-gray-700 text-white text-xs md:text-base font-semibold rounded-lg hover:bg-gray-900 transition-all inline-flex items-center gap-2 md:gap-3 whitespace-nowrap cursor-pointer"

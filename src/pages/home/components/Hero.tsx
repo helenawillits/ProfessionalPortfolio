@@ -1,4 +1,4 @@
-export default function Hero() {
+ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-gray-950">
       {/* Subtle Background Pattern */}
@@ -13,20 +13,20 @@ export default function Hero() {
         {/* Left Content */}
         <div className="space-y-4 md:space-y-8">
           <div className="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-gray-900 border border-gray-800 rounded-full">
-            <span className="text-gray-300 text-xs md:text-sm font-medium whitespace-nowrap">AI-Enhanced Developer • 1.5 Years Experience</span>
+            <span className="text-gray-300 text-xs md:text-sm font-medium whitespace-nowrap">Software Developer • 2 Years Experience</span>
           </div>
 
           <div className="space-y-2 md:space-y-4">
             <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="text-white">Building Tomorrow's</span>
+              <span className="text-white">Hi there,</span>
               <br />
-              <span className="text-cyan-400">Software With AI</span>
+              <span className="text-cyan-400">I'm Helena Willits.</span>
               <br />
-              <span className="text-white">Innovation Today</span>
             </h1>
             <p className="text-sm md:text-xl text-gray-400 leading-relaxed max-w-xl">
-              Leveraging cutting-edge AI tools and machine learning to solve complex problems, 
-              accelerate development cycles, and build intelligent solutions that drive real business impact.
+            Junior developer with 2 years of professional experience building production-level applications at Amazon. 
+            Strong foundation in AWS services (Lambda, S3, CDK), full stack development (Java, React), machine learning (Alexa, Q, Lex), 
+            and solution design in an agile environment.
             </p>
           </div>
 

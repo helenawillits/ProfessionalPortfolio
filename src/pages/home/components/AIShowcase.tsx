@@ -1,27 +1,21 @@
 export default function AIShowcase() {
   const features = [
     {
-      icon: 'ri-robot-2-line',
-      title: 'AI-Assisted Coding',
-      description: 'Leveraging GitHub Copilot, ChatGPT, and Claude to accelerate development and write cleaner, more efficient code.',
+      icon: 'ri-line-chart-line',
+      title: 'Model Improvement',
+      description: 'Experience improving model performance through data analysis.',
       iconColor: 'text-cyan-400'
     },
     {
       icon: 'ri-brain-line',
       title: 'Machine Learning Integration',
-      description: 'Implementing ML models in production applications, from natural language processing to predictive analytics.',
+      description: 'Experience leveraging ML models for compelling business use cases, from NLP assistants to AI-driven code migration tools.',
       iconColor: 'text-cyan-400'
     },
     {
-      icon: 'ri-flashlight-line',
-      title: 'Intelligent Automation',
-      description: 'Building AI-powered workflow solutions that reduce manual tasks and improve operational efficiency by 40%.',
-      iconColor: 'text-cyan-400'
-    },
-    {
-      icon: 'ri-line-chart-line',
-      title: 'Data-Driven Decisions',
-      description: 'Leveraging AI for insights and optimization, turning complex data into actionable business intelligence.',
+      icon: 'ri-robot-2-line',
+      title: 'AI-Assisted Coding',
+      description: 'Leveraging Cursor, ChatGPT, and Q to accelerate development and learn faster.',
       iconColor: 'text-cyan-400'
     }
   ];
@@ -39,7 +33,7 @@ export default function AIShowcase() {
           </h2>
           <p className="text-sm md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
             Embracing an AI-first approach to development, I use cutting-edge tools to build faster, 
-            smarter, and more innovative solutions. This very website showcases the power of AI-assisted development.
+            smarter, and more innovative solutions.
           </p>
         </div>
 
