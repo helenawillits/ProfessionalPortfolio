@@ -24,7 +24,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-12 md:py-24 bg-gray-950 relative overflow-hidden">
+    <section id="contact" className="py-12 md:py-24 bg-gray-900 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -46,7 +46,7 @@ export default function Contact() {
 
             <div className="space-y-4 md:space-y-6 pt-4 md:pt-8">
               <div className="flex items-center gap-3 md:gap-4">
-                <div className="w-10 h-10 md:w-14 md:h-14 bg-gray-900 border border-gray-800 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 md:w-14 md:h-14 bg-gray-950 border border-gray-800 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
                   <i className="ri-mail-line text-lg md:text-2xl text-cyan-400"></i>
                 </div>
                 <div>
@@ -58,7 +58,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-3 md:gap-4">
-                <div className="w-10 h-10 md:w-14 md:h-14 bg-gray-900 border border-gray-800 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 md:w-14 md:h-14 bg-gray-950 border border-gray-800 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
                   <i className="ri-linkedin-fill text-lg md:text-2xl text-cyan-400"></i>
                 </div>
                 <div>
@@ -70,7 +70,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-3 md:gap-4">
-                <div className="w-10 h-10 md:w-14 md:h-14 bg-gray-900 border border-gray-800 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 md:w-14 md:h-14 bg-gray-950 border border-gray-800 rounded-xl md:rounded-2xl flex items-center justify-center flex-shrink-0">
                   <i className="ri-github-fill text-lg md:text-2xl text-cyan-400"></i>
                 </div>
                 <div>
@@ -91,7 +91,7 @@ export default function Contact() {
                 href="https://github.com/helenawillits"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 md:px-8 py-2.5 md:py-4 border-2 border-gray-700 text-white text-xs md:text-base font-semibold rounded-lg hover:bg-gray-900 transition-all inline-flex items-center gap-2 md:gap-3 whitespace-nowrap cursor-pointer"
+                className="px-4 md:px-8 py-2.5 md:py-4 border-2 border-gray-700 text-white text-xs md:text-base font-semibold rounded-lg hover:bg-gray-950 transition-all inline-flex items-center gap-2 md:gap-3 whitespace-nowrap cursor-pointer"
               >
                 <i className="ri-github-fill text-base md:text-xl"></i>
                 View GitHub
@@ -100,7 +100,7 @@ export default function Contact() {
           </div>
 
           {/* Right Form */}
-          <div className="bg-gray-900 border border-gray-800 rounded-xl md:rounded-2xl p-4 md:p-8">
+          <div className="bg-gray-950 border border-gray-800 rounded-xl md:rounded-2xl p-4 md:p-8">
             <h3 className="text-lg md:text-2xl font-bold text-white mb-4 md:mb-6">Send a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
               <div>

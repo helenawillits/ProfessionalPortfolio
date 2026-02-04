@@ -1,3 +1,4 @@
+import logo from "../../../assets/logo.png";
 
 export default function Impact() {
   const stats = [
@@ -7,7 +8,7 @@ export default function Impact() {
   ];
 
   return (
-    <section className="py-12 md:py-24 bg-gray-900 relative overflow-hidden">
+    <section className="py-12 md:py-24 bg-gray-950 relative overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-4 md:space-y-8">
@@ -24,7 +25,7 @@ export default function Impact() {
 
             <div className="flex items-center gap-3 md:gap-4 pl-4 md:pl-8">
               <img 
-                src="https://static.readdy.ai/image/5b91dc56620e006440478c6bdc15e55f/5ea7ae4ce972f9f2bd06800f312defae" 
+                src={logo}
                 alt="Helena Willits"
                 className="w-10 h-10 md:w-16 md:h-16 rounded-full object-cover border-2 md:border-4 border-gray-800 shadow-lg"
               />

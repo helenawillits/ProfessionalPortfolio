@@ -10,6 +10,8 @@ import Resume from './components/Resume';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import logo from "../../assets/logo.png";
+import myresume from "../../../public/helena_willits_resume.pdf";
 
 export default function HomePage() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +33,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 md:gap-3">
             <img 
-              src="https://static.readdy.ai/image/5b91dc56620e006440478c6bdc15e55f/5ea7ae4ce972f9f2bd06800f312defae" 
+              src={logo} 
               alt="Logo" 
               className="w-8 h-8 md:w-12 md:h-12 rounded-full object-cover"
             />
@@ -47,9 +49,9 @@ export default function HomePage() {
             <a href="#about" className="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors whitespace-nowrap">About</a>
             <a href="#contact" className="text-sm font-medium text-gray-300 hover:text-cyan-400 transition-colors whitespace-nowrap">Contact</a>
             <a 
-              href="#resume" 
+              href={myresume}
               className="px-4 md:px-6 py-2 md:py-2.5 bg-cyan-500 text-gray-950 text-xs md:text-sm font-semibold rounded-lg hover:bg-cyan-400 transition-all whitespace-nowrap cursor-pointer"
-            >
+            download>
               Download Resume
             </a>
           </div>

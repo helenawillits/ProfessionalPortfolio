@@ -1,3 +1,4 @@
+import myresume from "../../../../public/helena_willits_resume.pdf";
 
 export default function Resume() {
   const experiences = [
@@ -57,7 +58,8 @@ export default function Resume() {
     institution: 'California Polytechnic State University, San Luis Obispo',
     period: '2018 - 2022',
     gpa: '3.5',
-    honors: ['Summa Cum Laude', 'Dean\'s List 2018, 2019, 2020, 2021']
+    honor1: 'Cum Laude',
+    honor2: 'Dean\'s List 2018, 2019, 2020, 2021'
   };
 
   const skills = {
@@ -68,7 +70,7 @@ export default function Resume() {
   };
 
   return (
-    <section id="resume" className="py-12 md:py-24 bg-gray-950">
+    <section id="resume" className="py-12 md:py-24 bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         <div className="text-center mb-8 md:mb-16 space-y-2 md:space-y-4">
           <h2 className="text-2xl md:text-5xl font-bold text-white">Resume</h2>
@@ -89,7 +91,12 @@ export default function Resume() {
                 <div className="flex items-center gap-2 md:gap-4 text-[10px] md:text-sm text-gray-400">
                   <span className="flex items-center gap-1 md:gap-2">
                     <i className="ri-medal-line"></i>
-                    {education.honors}
+                    {education.honor1}
+                  </span>
+                  <span>•</span>
+                  <span className="flex items-center gap-1 md:gap-2">
+                    <i className="ri-medal-line"></i>
+                    {education.honor2}
                   </span>
                   <span>•</span>
                   <span>GPA: {education.gpa}</span>
@@ -163,7 +170,13 @@ export default function Resume() {
 
         {/* Download Button */}
         <div className="text-center">
-          <button className="px-6 md:px-10 py-3 md:py-4 bg-cyan-500 text-gray-950 text-xs md:text-base font-semibold rounded-lg hover:bg-cyan-400 transition-all inline-flex items-center gap-2 md:gap-3 whitespace-nowrap cursor-pointer">
+          <button className="px-6 md:px-10 py-3 md:py-4 bg-cyan-500 text-gray-950 text-xs md:text-base font-semibold rounded-lg hover:bg-cyan-400 transition-all inline-flex items-center gap-2 md:gap-3 whitespace-nowrap cursor-pointer"
+          onClick={() => {
+            const link = document.createElement('a');
+            link.href = myresume;
+            link.download = 'helena_willits_resume.pdf';
+            link.click();
+          }}>
             <i className="ri-download-line text-base md:text-xl"></i>
             Download Full Resume (PDF)
           </button>

@@ -1,3 +1,4 @@
+import logo from "../../../assets/logo.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,12 +20,11 @@ export default function Footer() {
   const socialLinks = [
     { icon: 'ri-linkedin-fill', href: 'https://www.linkedin.com/in/helena-willits-22101399', label: 'LinkedIn' },
     { icon: 'ri-github-fill', href: 'https://github.com/helenawillits', label: 'GitHub' },
-    { icon: 'ri-twitter-x-line', href: 'https://twitter.com', label: 'Twitter' },
     { icon: 'ri-mail-line', href: 'mailto:helena.willits@gmail.com', label: 'Email' }
   ];
 
   return (
-    <footer className="bg-gray-900 text-white relative overflow-hidden border-t border-gray-800">
+    <footer className="bg-gray-950 text-white relative overflow-hidden border-t border-gray-800">
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-16">
         {/* Upper Section */}
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 mb-8 md:mb-12">
@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 space-y-3 md:space-y-4">
             <div className="flex items-center gap-2 md:gap-3">
               <img 
-                src="https://static.readdy.ai/image/5b91dc56620e006440478c6bdc15e55f/5ea7ae4ce972f9f2bd06800f312defae" 
+                src={logo}
                 alt="Logo" 
                 className="w-8 h-8 md:w-12 md:h-12 rounded-full object-cover"
               />
@@ -50,7 +50,7 @@ export default function Footer() {
                 className="flex-1 px-3 md:px-4 py-1.5 md:py-2 bg-gray-800 border border-gray-700 rounded-lg text-[10px] md:text-sm text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 transition-colors"
               />
               <button className="w-8 h-8 md:w-10 md:h-10 bg-cyan-500 rounded-lg flex items-center justify-center hover:bg-cyan-400 transition-all flex-shrink-0 cursor-pointer">
-                <i className="ri-send-plane-fill text-gray-950 text-sm md:text-base"></i>
+                <i className="ri-send-plane-fill text-gray-900 text-sm md:text-base"></i>
               </button>
             </div>
           </div>
