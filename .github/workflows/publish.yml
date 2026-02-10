@@ -1,4 +1,4 @@
-brew name: Publish Pages
+name: Publish Pages
 
 on:
   push:
